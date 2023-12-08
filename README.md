@@ -2,7 +2,9 @@
 
 ## 프로젝트 설명
 
-각 지역에 오프라인 센터가 있다는 가정하에 판매자가 오프라인 센터에 판매자가 물건을 가서 등록을 하면 오프라인 센터가 물건을 검수하여 사이트에 물건에 대한 정보와 이미지를 올려놓으면 구매자는 사이트를 둘러보다 원하는 물건이 있으면 예약을 걸어놓고 현장에서 구매한다. 당근마켓의 직거래가 `일대일`관계라면 이 사이트 컨셉은 판매자와 구매자 사이에 껴서 거래를 순조롭게 도와주는 컨셉이다.
+각 지역에 오프라인 센터 및 관리자가 존재하는 판매자 - 관리자 - 구매자 형태의 중고거래 사이트
+판매자는 자주 진상에 시달릴 필요 없으며, 오프라인 센터가 별도 존재하므로 구매자도 직접 상품을 보고 결정할 수 있는 장점이 존재함
+전반적으로는 당근마켓 포맷을 표방함.
 
 # GitHub 주소
 [코드보러 가기](https://github.com/orgs/BlueBucket-project/repositories)
@@ -16,16 +18,11 @@
 
 
 ---
-# ERD
-![](https://velog.velcdn.com/images/zxzz45/post/438cfe73-ba11-49e7-be4a-74d22e1ae220/image.png)
-
-# 프로젝트 세부 진행
-
-[프로젝트 파악하기](https://velog.io/@zxzz45/%EB%B0%B0%ED%8F%AC-c39fncia) <br />
-여기서는 프로젝트를 코드와 설명으로 어떻게 진행하고 왜 그렇게 했는지 설명하면서 진행할 생각입니다. 이곳에는 프로젝트를 진행하면서 만났던 문제들도 기록하고 있습니다.
+## ERD
+-
 
 
-## 사용한 기술 및 라이브러리
+## SKILL & LIBRARY
 ![SpringBoot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=SpringBoot&logoColor=black) 
 <img src="https://img.shields.io/badge/JPA-brown?style=flat-square&logo=JPA&logoColor=white"> 
 <img src="https://img.shields.io/badge/springsecurity-6DB33F?style=flat-square&logo=springsecurity&logoColor=white"> 
@@ -49,6 +46,5 @@
 <img src="https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white">
 <img src="https://img.shields.io/badge/notion-000000?style=flat-square&logo=notion&logoColor=white">
 
-#### 사용 IDE
-<img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat-square&logo=IntelliJIDEA&logoColor=white">
 
+# 프로젝트 구성 및 역할
