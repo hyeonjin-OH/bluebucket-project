@@ -6,7 +6,7 @@
 판매자는 자주 진상에 시달릴 필요 없으며, 오프라인 센터가 별도 존재하므로 구매자도 직접 상품을 보고 결정할 수 있는 장점이 존재함<br/>
 전반적으로는 당근마켓 포맷을 표방함.
 <br/><br/>
-## GitHub 주소
+## 통합 GitHub 주소
 [코드보러 가기](https://github.com/orgs/BlueBucket-project/repositories)
 <br/><br/>
 
@@ -53,8 +53,7 @@
 - EC2 서버관리 및 Git Actions + Code Deploy를 이용한 자동배포(CD)
 
 ## 고찰
-- 프론트와 API공유에 있어서 명확한 문서 및 사용법 안내의 필요성
+- 프론트와의 API공유에 있어 명확한 문서 및 사용법.용어 안내의 필요성
 - 도메인 로직의 구성 위치의 중요성
   Entity to DTO의 함수 위치, 공통으로 사용될 수 있는 도메인 함수의 위치 등
 - Spring Data JPA의 사용 및 Fetch Join 관련된 사항 직면
-
