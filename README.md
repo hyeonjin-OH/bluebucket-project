@@ -48,10 +48,14 @@
 ## 역할
 ### 상품(ITEMS), 장바구니(CART), 구매(ORDERS), 자동 배포(AWS EC2 + Git Actions)
 - 주요 기능 : 상품 등록, 수정, 삭제, 장바구니 담기 및 구매처리, 예외 처리 등
+  ![상품등록 및 수정](https://blogfiles.pstatic.net/MjAyNDAxMTZfNzkg/MDAxNzA1MzgwNzg0MDY1.KUzCdEbvZwZk0-qLHu7C7yJ-VBpzwv6IcFJTLtYwYdEg.RR8XVPJz5C7Tb2APHCVo_zhf7BsBq-jUlIrVQzm2UUcg.GIF.bisung62/%EC%83%81%ED%92%88%EB%93%B1%EB%A1%9D.gif)
 - 상품의 다중옵션 검색기능
+  ![검색](https://blogfiles.pstatic.net/MjAyNDAxMTZfNiAg/MDAxNzA1MzgxMjUzNzU2.hCPgr28kEmK7DZyMaHurFnmPQuJS8_TRx9QJtlowVtMg.-N4hDX3mV82JUGBXJ1hug_tJCLPreIZ-wcAcuAl4xwIg.GIF.bisung62/%EA%B2%80%EC%83%89%EA%B8%B0%EB%8A%A5.gif)
 - AWS S3를 이용한 상품 이미지 저장
 - JPA 연관관계를 이용한 데이터 삭제 시, 참조 관계(상품 테이블)의 경우 동시 삭제 혹은 null처리
 - EC2 서버관리 및 Git Actions + Code Deploy를 이용한 자동배포(CD)
+  ![Git Actions 자동배포](https://postfiles.pstatic.net/MjAyNDAxMTZfMTg3/MDAxNzA1MzgxNDQ2OTI0.llM730O7tJO0WgELypJjlnBdtx5fdNxC4yXcmi9h4Zkg.x8sOb7sleT9TRIf3f_4dVbxB9kXsbXbsg2eee_w4_SQg.PNG.bisung62/image.png?type=w773)
+
 
 
 ## 고찰
